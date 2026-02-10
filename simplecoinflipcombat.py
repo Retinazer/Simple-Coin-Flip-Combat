@@ -7,7 +7,7 @@ healthEnemy = 3
 coin = ["Heads", "Tails"]
 print("Flip the coin!! (Type anything to flip)")
 flip = str(input())
-if flip == str :
+if flip == "y" or "yes" :
     flip = True
 count = 0
 while flip == True:
@@ -27,7 +27,7 @@ while flip == True:
     print("Turn", count)
     print("Flip the coin!! (Type anything to flip)")
     flip = str(input())
-    if flip == str :
+    if flip == "y" or "yes" :
      flip = True
     
     if health == 0 :
@@ -42,4 +42,5 @@ while flip == True:
         break
 
     
+
 
