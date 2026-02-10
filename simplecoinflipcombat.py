@@ -25,7 +25,7 @@ while flip == True:
         
     count += 1
     print("Turn", count)
-    print("Flip the coin!! (y/n)")
+    print("Flip the coin!! (Type anything to flip)")
     flip = str(input())
     if flip == str :
      flip = True
@@ -42,3 +42,4 @@ while flip == True:
         break
 
     
+
