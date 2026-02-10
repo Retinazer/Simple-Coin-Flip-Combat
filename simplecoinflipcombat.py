@@ -19,9 +19,9 @@ while flip == True:
         print(coinflip)
         print("You hit for 1 damage", healthEnemy)
     else :
+        health -= 1
         print(coinflip)
         print("You got hit for 1 damage", health)
-        health -= 1
         
     count += 1
     print("Turn", count)
@@ -30,17 +30,16 @@ while flip == True:
     if flip == "y" or "yes" :
      flip = True
     
-    if health == 0 :
+    if health == 1 :
         print(coinflip)
-        print("You got hit for 1 damage", health)
         print("You died!!")
         break
-    elif healthEnemy == 0 :
+    elif healthEnemy == 1 :
         print(coinflip)
-        print("You hit for 1 damage", healthEnemy)
         print("You killed it!!")
         break
 
     
+
 
 
